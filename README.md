@@ -29,7 +29,7 @@ CORS
 dotenv
 
 ��� Estrutura do Projeto
-´´´ text
+```text
 microstack-gateway/
 ├── src/
 │   └── app.js
@@ -38,5 +38,5 @@ microstack-gateway/
 ├── .env.example
 ├── package.json
 └── README.md
-´´´
+```
 
