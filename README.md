@@ -1,22 +1,18 @@
-Microstack Gateway
+🚀 Overview
 
-API Gateway para a arquitetura distribuída do Microstack-J.
+The Microstack Gateway is the central entry point for all microservices in the Microstack-J platform. It is responsible for:
 
-��� Visão Geral
+Routing requests to services (Users, Orders, Notifications, and Inventory)
 
-O Microstack Gateway é o ponto central de entrada para todos os microserviços da plataforma Microstack-J, responsável por:
+Standardizing endpoints
 
-Roteamento entre serviços (Users, Orders, Notifications e Inventory)
+Simplifying access for the Angular frontend (single domain)
 
-Padronização de endpoints
+Enabling independent deployment of each microservice
 
-Simplificação para o frontend Angular (um único domínio)
+Currently, it acts as a reverse proxy using Express + http-proxy-middleware.
 
-Facilitar deploy independente de cada microserviço
-
-Atualmente, ele atua como reverse proxy utilizando express + http-proxy-middleware.
-
-��� Tecnologias
+🛠 Technologies
 
 Node.js
 
@@ -28,7 +24,7 @@ CORS
 
 dotenv
 
-��� Estrutura do Projeto
+📁 Project Structure
 ```text
 microstack-gateway/
 ├── src/
